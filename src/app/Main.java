@@ -10,8 +10,8 @@ public class Main {
 
     public static void main(String[] args) {
         try {
-            Heroi arthan = new Heroi("Arthan", 30, 120);
-            Vilao nahtar = new Vilao("Nahtar", 25, 150);
+            Heroi arthan = new Heroi("Flamengo", 30, 120);
+            Vilao nahtar = new Vilao("Palmeiras", 25, 150);
 
             arthan.adicionarFerramenta(new Espada());
             arthan.adicionarFerramenta(new Escudo());
@@ -27,3 +27,4 @@ public class Main {
     }
 
 }
+
