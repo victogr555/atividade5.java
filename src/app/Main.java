@@ -15,12 +15,9 @@ public class Main {
 
             arthan.adicionarFerramenta(new Espada());
             arthan.adicionarFerramenta(new Escudo());
-            // arthan.adicionarFerramenta(new Arco()); // GERARIA EXCEÇÃO
-
             arthan.adicionarItem(new Pocao());
             arthan.adicionarItem(new Mapa());
             arthan.adicionarItem(new Chave());
-
             BatalhaService batalha = new BatalhaService();
             batalha.iniciarBatalha(arthan, nahtar);
 
@@ -28,4 +25,5 @@ public class Main {
             System.out.println("Erro: " + e.getMessage());
         }
     }
+
 }
